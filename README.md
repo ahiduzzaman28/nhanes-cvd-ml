@@ -1,2 +1,1 @@
-# nhanes-cvd-ml
-NHANES 2017–2023 CVD prediction in R: RFE feature selection, ROSE vs undersampling, SHAP/LIME explainability, and (optional) calibration—reproducible scripts and figures.
+This repository contains R code to build and evaluate machine-learning models for cardiovascular disease (CVD) using NHANES 2017–2023. It includes data prep, RFE-based feature selection, class-imbalance strategies (ROSE oversampling and real-case undersampling), model training (XGBoost, Random Forest, Logistic, LightGBM, SVM), interpretability with SHAP and LIME, and optional calibration checks. The test set remains untouched for fair evaluation; raw data are not included. Scripts are organized for reproducibility and can be run sequentially from the scripts/ folder.
